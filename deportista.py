@@ -6,7 +6,7 @@ class Deportista:
     def getDeporte():
         return self._deporte
 
-    def getAnosPracticando():
+    def getAñosPracticando():
         return self._añosPracticando
 
     def setDeporte(deporte):

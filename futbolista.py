@@ -16,21 +16,21 @@ class Futbolista(Persona, Deportista):
         return "Mi nombre es " + self.getNombre() + " soy profesional en el deporte " + self.getDeporte() + " Tengo " + str(self.getEdad) + " años de edad y llevo " + str(self.getAñosPracticando) + " años en el deporte"
 
 
-    def getGolesMarcados():
+    def getGolesMarcados(self):
         return self._golesMarcados
 
-    def getTarjetasRojas():
+    def getTarjetasRojas(self):
         return self._tarjetasRojas
 
-    def getPiernaHabil():
+    def getPiernaHabil(self):
         return self._piernaHabil
 
-    def setGolesMarcados(goles):
+    def setGolesMarcados(self, goles):
         self._golesMarcados = goles
 
-    def setTarjetasRojas(tarjetas):
+    def setTarjetasRojas(self, tarjetas):
         self._tarjetasRojas = tarjetas
 
-    def setPiernaHabil(pierna):
+    def setPiernaHabil(self, pierna):
         self._piernaHabil = pierna
 
